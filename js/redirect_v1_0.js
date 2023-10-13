@@ -17,6 +17,6 @@ function doRedirect(url) {
 
   
   if (!inFrame()) {
-    window.location= url
+    window.location= url;
   }
 }
